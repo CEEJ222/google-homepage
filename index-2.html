@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+            #logo {
+                max-height: 92px;
+                max-width: 272px;
+                margin-top: 46px;
+                padding-top:100px;
+                margin-left: 136px;
+                margin-right: auto;
+                margin-left: auto;
+                position: relative;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display:inline;
+            }
+            #top-left a {
+                float: left;
+            }
+            #top-right a {
+                float: right;
+            }
+            a {
+                display: block;
+                padding: 10px;   
+                text-decoration: none;  
+                font-family: Arial, Helvetica, sans-serif;
+                color: black;
+                opacity: 75%;      
+                font-size: small; 
+            }
+            a:hover {
+                text-decoration:underline;
+            }
+            .search-outline {
+                background: #fff;
+                display: flex;
+                border: 1px solid #dfe1e5;
+                box-shadow: none;
+                border-radius: 24px;
+                z-index: 3;
+                height: 44px;
+                margin: 0 auto;
+                width: 482px;
+                box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+            }
+            .btn-container {
+                padding-top: 18px;
+                top: 53px;
+                z-index: 0;
+                width: 487px;
+        }
+        .search-icon {
+            margin-left: 10px;
+            margin-top: 10px;
+            color: #9AA0A6;
+            height: 20px;
+            width: 20px;
+            opacity: 0.50;
+            cursor: pointer;
+        }
+
+        .search-icon:hover {
+            color: #9AA0A6;
+        }
+
+        .btn-1 {
+            background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5F6368;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .btn-1:hover {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            border: 1px solid gray;
+        }
+
+        .btn-2 {
+            background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5F6368;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .btn-2:hover {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            border: 1px solid gray;
+        }
+
+        #hyperlink {
+            text-decoration: none;
+        }
+
+        #hyperlink:hover {
+            text-decoration: underline;
+        }
+
+        #body-margin {
+            margin-bottom: 300px;
+        }
+
+        #footer {
+            opacity: 0.75;
+            background: #f2f2f2;
+            background-color: rgb(242, 242, 242);
+            line-height: 40px;
+            border-top: 1px solid #e4e4e4;
+            text-decoration: none;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            display: block;
+            visibility: visible;
+            height: auto;
+        }
+
+        #footer a {
+            display: inline-block;
+            margin-bottom:0px;
+            margin-left:0px;
+            margin-right:0px;
+            margin-top:0px;
+            padding-left: 27px;
+            cursor: pointer;
+        }
+
+        #footer-left a {
+            float: left;
+            margin-left: 30px;
+            white-space: nowrap;
+        }
+
+        #footer-right a {
+            float: right;
+            margin-right: 30px;
+            white-space: nowrap;
+        }
+
+    </style>
+</head>
+<header>
+    <nav>
+        <div id="top-left">
+            <ul>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Store</a></li>
+            </ul>
+        </div>
+        <div id="top-right">
+            <ul>
+                <li><a href="/">Gmail</a></li>
+                <li><a href="/">Images</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<body>
+    <center>
+        <div id="logo">
+            <img alt="google logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272">
+        </div> 
+        <form id="form" action="search">                    
+            <div class="search-outline">
+                <span class="search-icon" role="button">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    </svg>
+                </span>  
+            </div>   
+        </form>        
+        <div class="btn-container">
+            <input type="button" class="btn-1" value="Google Search" type="submit">
+            <input type="button" class="btn-2" value="I'm Feeling Lucky" type="submit">            </div>
+        <div style="margin-top:12px">
+            <a id="hyperlink" rel="nofollow" href="https://www.youtube.com/stayhome?utm_source=google&utm_medium=hppromo&utm_campaign=HelpathomeYTUS">Make the most of your time at home with tips for recipes, workouts, and more </a>
+        </div>
+    </center>
+        <div id="body-margin"></div>
+        <div id="footer">
+            <span id="footer-left">
+                <a href="/">Advertising</a>
+                <a href="/">Business</a>
+                <a href="/">How Search Works</a>
+            </span> 
+            <span id="foooter-right">
+                <a href="/">Privacy</a>
+                <a href="/">Terms</a>
+                <a href="/">Settings</a>
+            </span>
+        </div>
+</body>
+</html>
